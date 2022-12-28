@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>EsquadriasPVC</title>
+</head>
+
+<body>
+    <!-- HEADER CONTENT -->
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5 fs-1" href="./index.html">Esq. Schmitt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-4 me-5">
+                <li class="nav-item">
+                <a class="nav-link " href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./empresa.html">Empresa</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./projetos.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- FORM SECTION -->
+    <section>
+        <div class="container">
+            <h1 id="itensContato" class="text-center display-6 pt-4">Entre em contato!</h1>
+            <form id="itensContato" class="p-5">
+                <div class="form-group">
+                    <label for="name">Digite seu nome completo:</label>
+                    <input type="text" class="form-control" placeholder="Digite seu nome completo">
+                  </div>
+                <div class="form-group pt-4">
+                    <label for="email">Digite seu Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+                </div>
+                <div class="form-group pt-4">
+                    <label for="inputAddress">Endereço:</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu endereço">
+                  </div>
+                <div class="form-group pt-4">
+                    <label for="material">Qual material deseja usar?</label>
+                    <select class="form-control" id="material">
+                        <option>PVC</option>
+                        <option>ALUMÍNIO</option>
+                        <option>MADEIRA</option>
+                        <option>OUTRO</option>
+                    </select>
+                </div>
+                <div class="form-group pt-4">
+                    <label for="mensagem">Observações:</label>
+                    <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem..."></textarea>
+                </div>
+                <div class="form-group pt-4 pb-4">
+                    <label for="exampleFormControlFile1">Adicione as plantas e fotos do seu projeto:</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <button type="button" class="btn btn-outline-secondary ">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+
+     <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid bg-dark">
+            <div class="container text-center ">
+                <p class="tituloFooter">Esquadrias Schmitt</p>
+                <p class="tituloItem">Todos os direitos reservados a copyright © 2022 Weslei Schmitt </p>
+            </div>
+        </div>
+    </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
